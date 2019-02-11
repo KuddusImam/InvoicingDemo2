@@ -26,6 +26,9 @@ public class UserStory_8 {
     @FindBy(xpath = "/html/body/div[1]/div[1]/div[1]/div[8]/ul[1]/li[1]/a")
     public WebElement getDocuments;
     
+    @FindBy(xpath = “/html/body/div[1]/div[1]/div[1]/div[8]/ul[1]/li[2]/ul/li[1]/a”)
+    public WebElement Customers;
+    
     @FindBy(xpath = "/html/body/div[1]/div[1]/div[1]/div[8]/ul[1]/li[2]/ul/li[2]/a/span")
     public WebElement Sellable_Products;
     
