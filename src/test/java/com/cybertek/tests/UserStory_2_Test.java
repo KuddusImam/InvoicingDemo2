@@ -2,23 +2,15 @@ package com.cybertek.tests;
 
 import com.cybertek.pages.UserStory_2;
 import com.cybertek.utilities.BrowserUtils;
-import com.cybertek.utilities.Driver;
 import com.cybertek.utilities.TestBase;
-import javafx.scene.control.RadioButton;
 import org.openqa.selenium.By;
-import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
-import org.openqa.selenium.interactions.internal.MouseAction;
-import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.testng.Assert;
-import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
 import java.util.List;
-
-import static org.openqa.selenium.Keys.ENTER;
 
 public class UserStory_2_Test extends TestBase {
 
