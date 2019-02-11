@@ -25,4 +25,10 @@ public class UserStory_8_Test extends TestBase {
 
 
     }
+    @Test
+    public void documentDropdown(){
+        userStory_8=new UserStory_8();
+        userStory_8.getDocuments.click();
+
+    }
 }
